@@ -42,7 +42,11 @@ const Profile = (props) => {
         {`
           .profile {
             width: 100%;
+<<<<<<< HEAD
             background-color: #fff;
+=======
+            background-color: #f4f4f4;
+>>>>>>> 45b069d91c79a4c46a39652b041df53ec8819c07
             margin-top: 100px;
           }
           .profile-menus {
@@ -81,7 +85,14 @@ const Profile = (props) => {
             margin-bottom: 5px;
             font-family: 'PT Sans', sans-serif;
             font-weight: bold;
+<<<<<<< HEAD
             color: rgb(60, 108, 186);
+=======
+          }
+          .the-profile-url {
+            color: rgb(60, 108, 186);
+            text-decoration: none;
+>>>>>>> 45b069d91c79a4c46a39652b041df53ec8819c07
           }
           .post-title {
             margin-top: 15px;
@@ -101,8 +112,15 @@ const Profile = (props) => {
             height: 250px;
             padding: 16px 16px;
             border: 1px solid rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
             margin-top: 20px;
             position: relative;
+=======
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            position: relative;
+            background-color: white;
+>>>>>>> 45b069d91c79a4c46a39652b041df53ec8819c07
           }
           .post-pic {
             max-height: 100%;
